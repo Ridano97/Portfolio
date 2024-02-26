@@ -1,8 +1,54 @@
-header {
-    background-color: coral;
+@font-face {
+    font-family: typo ;
+    src: url(./assets/font/TypoGraphica_demo.otf);
 }
 
-.image_ {
-    width: 1000px;
-    height: auto;
+@font-face {
+    font-family: lives ;
+    src: url(./assets/font/aBlackLives.otf);
+}
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+.text-bluenight {
+    color: rgb(27, 27, 58);
+}
+
+.typo{
+    font-family: typo;
+}
+
+.backgroundvert {
+    background-color: rgb(27, 68, 27);
+}
+
+.background_header {
+    background-color: rgb(27, 27, 58);
+}
+
+.taille_icone_rs {
+    width: 30px;
+    height: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.body-grey {
+    background-color: rgb(216, 216, 216) ;
+}
+
+.taille_icone_compétence {
+    width: 150px;
+    height: 150px;
+}
+
+.taille_icone_compétence_ {
+    width: 160px;
+    height: 150px;
 }
