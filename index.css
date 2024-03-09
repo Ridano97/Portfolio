@@ -1,59 +1,93 @@
 @font-face {
-    font-family: typo ;
-    src: url(./assets/font/TypoGraphica_demo.otf);
+  font-family: typo;
+  src: url(./assets/font/TypoGraphica_demo.otf);
 }
 
 @font-face {
-    font-family: lives ;
-    src: url(./assets/font/aBlackLives.otf);
+  font-family: lives;
+  src: url(./assets/font/aBlackLives.otf);
 }
 
 * {
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .text-bluenight {
-    color: rgb(27, 27, 58);
+  color: rgb(0, 0, 0);
 }
 
-.typo{
-    font-family: typo;
+.typo {
+  font-family: typo;
+}
+
+.nav_bar_survol:hover {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-duration: 1s;
+  color: beige;
 }
 
 .backgroundvert {
-    background-color: rgb(27, 68, 27);
+  background-color: rgb(27, 68, 27);
 }
 
 .background_header {
-    background-color: rgb(27, 27, 58);
+  background-color: rgb(0, 0, 0);
 }
 
 .taille_icone_rs {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .mt-50 {
-    margin-top: 50px !important;
+  margin-top: 50px !important;
 }
 
-.body-grey {
-    background-color: rgb(216, 216, 216) ;
+.body-beige {
+  background-color: beige;
 }
 
 .taille_icone_compétence {
-    width: 120px;
-    height: 100px;
+  width: 120px;
+  height: 100px;
 }
 
 .taille_icone_compétence_ {
-    width: 190px;
-    height: 100px;
+  width: 190px;
+  height: 100px;
 }
 
 .image_cv {
-    width: 500px;
-    height: 500px;
+  width: 400px;
+  height: 480px;
+}
+
+.taille_icone_last {
+  width: 150px;
+  height: 150px;
+}
+
+.espace {
+  padding: 0 10px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.nom_de_poste {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.nom_formation {
+  font-size: 20px;
+  font-weight: bolder;
 }
