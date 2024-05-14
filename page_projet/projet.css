@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  
+  }
+
+body {
+    background-image: url(../assets/images/fond.jpeg);
+    background-origin: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   /*  animation: bg-animation .2s infinite;
+    background: #ba97846d url(http://assets.iceable.com/img/noise-transparent.png) repeat 0 0;
+    background-repeat: repeat;
+    bottom: -50%;
+    left: -50%;
+    opacity: .9;
+    position: relative;
+    right: -50%;
+    top: -50%;
+    visibility: visible;
+    z-index: 0; */
+}
+
+
+#image-logo {
+    margin-left: 40px;
+    position: absolute;
+
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px ;
+  
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li {
+    margin: 0px 40px;
+  }
+
+  .navbar:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.2s;
+    font-size: 18px;
+  
+  }
+
+  h1 {
+    margin-left: 610px;
+    color: white;
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow:0 4px 0 #000000;
+  }
+
+  #projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #image-projet {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  #nom-projet {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  p {
+    margin-bottom: 100px;
+    color: white;
+  }
+
+  h2 {
+    text-shadow:0 4px 0 #000000;
+    color: white;
+  }
