@@ -103,11 +103,32 @@ body {
   }
 
   p {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    margin-left: 150px;
     color: white;
   }
 
   h2 {
     text-shadow:0 4px 0 #000000;
     color: white;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+
+  .image_pro {
+    width: 450;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: #000000 5px solid;
+  }
+
+  .image_pro:hover {
+    cursor: pointer;
+    width: 600px;
+    height: 400px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+
   }
