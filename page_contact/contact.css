@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  
+}
+
+  body {
+    background: linear-gradient(#ebcea1  0.1%, #B4C0D9 40%, 50%, #03bddc 55%);
+    background-repeat: no-repeat;
+  }
+
+  #image-logo {
+    margin-left: 40px;
+    position: absolute;
+
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px ;
+  
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li {
+    margin: 0px 40px;
+  }
+
+  .navbar:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.2s;
+    font-size: 18px;
+  
+  }
+
+  h1 {
+    margin-left: 610px;
+    color: white;
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow:0 4px 0 #000000;
+  }
+
+  h2 {
+    color: white;
+    text-shadow:0 4px 0 #000000;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+  }
+
+  .icone {
+    
+    width: 60px;
+    height: 60px;
+  }
+
+  .git {
+    
+    width: 150px;
+    height: 70px;
+  }
+
+  .organisation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    margin-left: 20px;
+    color: white;
+  }

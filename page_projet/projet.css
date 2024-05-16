@@ -7,23 +7,13 @@
   }
 
 body {
-    background-image: url(../assets/images/fond.jpeg);
+    /* background-image: url(../assets/images/fond.jpeg);
     background-origin: border-box;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-   /*  animation: bg-animation .2s infinite;
-    background: #ba97846d url(http://assets.iceable.com/img/noise-transparent.png) repeat 0 0;
-    background-repeat: repeat;
-    bottom: -50%;
-    left: -50%;
-    opacity: .9;
-    position: relative;
-    right: -50%;
-    top: -50%;
-    visibility: visible;
-    z-index: 0; */
+    background-attachment: fixed; */
+    background: linear-gradient(#FDE0DE  0.1%, #5E58B8 20%, 40%, #242F8B 55%);
 }
 
 
@@ -82,6 +72,7 @@ body {
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 100px;
   }
   
   #image-projet {
@@ -120,15 +111,120 @@ body {
     height: 300px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: #000000 5px solid;
+    border: #ffffff 1px solid;
+    box-shadow: #ffffff 3px 1px 5px 1px;
   }
 
   .image_pro:hover {
     cursor: pointer;
-    width: 600px;
-    height: 400px;
+    width: 500;
+    height: 350px;
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 2s;
 
   }
+
+  @media (max-width: 480px) {
+    #image-logo {
+        position: relative;
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #projet {
+        flex-direction: column;
+    }
+
+    #image-projet, #nom-projet {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    p, h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image_pro {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .image_pro:hover {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+  #image-logo {
+      margin-left: 300px;
+      position: relative;
+
+  }
+
+  header ul {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  li {
+      margin: 10px 20px;
+  }
+
+  h1 {
+      margin-left: 0;
+      margin-top: 50px;
+      font-size: 50px;
+      text-align: center;
+  }
+
+  #projet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+  #image-projet {
+      width: 45%;
+      margin-top: 20px;
+  }
+
+  #nom-projet {
+    display: none;
+  }
+
+  p, h2 {
+      margin-left: 20px;
+      text-align: center;
+  }
+
+  .image_pro {
+      width: 100%;
+      height: auto;
+  }
+
+  .image_pro:hover {
+      width: 100%;
+      height: auto;
+  }
+}
