@@ -22,7 +22,7 @@ body {
 }
 
 #image-logo {
-  margin-right: 1100px;
+  margin-right: 1270px;
   position: absolute;
 }
 
@@ -48,6 +48,7 @@ a {
 
 li {
   margin: 0px 40px;
+  font-size: 23px;
 }
 
 .navbar:hover {
@@ -66,6 +67,12 @@ li {
   margin: auto;
   display: flex;
   margin-top: 200px;
+}
+#mid_ {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
 }
 
 h1  {
@@ -117,10 +124,12 @@ p {
   align-items: center;
   border-radius: 5px;
   margin-bottom: 150px;
+  box-shadow: black 3px 3px 20px 2px;
 }
 
 #presentation {
   margin: 30px;
+  border-radius: 10px;
 }
 
 #button-metier {
@@ -139,7 +148,7 @@ p {
 
 #button-metier:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #32232C;
   color: white;
 
 }
@@ -162,7 +171,7 @@ button {
 }
 
 button:hover {
-  background-color: black;
+  background-color: #32232C;
   color: white;
   display: flex;
   justify-content: center;
@@ -171,6 +180,99 @@ button:hover {
   transition-property: all;
   transition-delay: 0.2s;
   cursor: pointer;
+}
+
+.text-intro {
+  color: black;
+  padding : 20px 200px 0px 200px ;
+
+}
+
+.text-intro:nth-child(4) {
+  padding-bottom: 30px;
+}
+
+.competence {
+  height: 80px;
+  width: 80px
+}
+
+#introduction {
+  max-width: 1200px;
+  margin: auto;
+  background:linear-gradient(rgb(55, 55, 55) 0.1%,  grey 5% , 20% , white 85%);
+  box-shadow: black 3px 3px 20px 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#introduction:hover {
+  
+  cursor: pointer;
+}
+
+h2 {
+  color:#32232C;
+}
+
+.competence {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  height: 105px;
+  width: 90px;
+  margin-top: 30px;
+}
+
+.qualite {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 130px;
+  width: 130px;
+  margin: 5px;
+}
+
+#hardskill {
+  background:linear-gradient(rgb(55, 55, 55) 0.1%,  grey 5% , 20% , white 85%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+  padding: 50px 0px 50px 0px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: black 3px 3px 20px 2px;
+  
+}
+
+#block-competence {
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  box-shadow: black 3px 3px 20px 2px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#titrehardskill {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#apropos {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
 /* @media screen and (min-width: 480px){
