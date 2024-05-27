@@ -176,6 +176,7 @@ button {
   border-radius: 10px;
   justify-content: space-between;
   margin-left: 50px;
+  background-color: white;
 }
 
 #button-contact {
