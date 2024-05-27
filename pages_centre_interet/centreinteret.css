@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  
+  }
+
+body {
+      /* background: linear-gradient(#ebcea1  0.1%, #B4C0D9 40%, 50%, #03bddc 55%); */
+    background-image: url(../assets/images/fondpik.jpeg);
+    background-origin: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    /* background: linear-gradient(#FDE0DE  0.1%, #5E58B8 20%, 40%, #242F8B 55%);
+    background: linear-gradient(#6A625F   5%, #FFFFFF 20%, 40%, #888282 70%);*/
+
+}
+
+#float_button{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+
+#button-metier {
+  align-items: center;
+  display: flex;
+  padding: 10px 25px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-right: 195px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.2s;
+}
+
+
+#button-metier:hover {
+  cursor: pointer;
+  background-color: #32232C;
+  color: white;
+
+}
+
+button {
+  align-items: center;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+#button-contact {
+  padding-right: 10px;
+}
+
+#button-contact:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #32232C;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.2s;
+  cursor: pointer;
+}
+
+
+
+button {
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+
+#fond {
+  display: flex;
+  justify-content: center;
+}
+
+#image-logo {
+    position: absolute;
+    margin-left: 50px;
+  }
+
+#image-logo_ {
+    height: 350px;
+    width: 330px;
+  }
+
+.photointeret {
+  height: 500px;
+  width: 500px;
+}
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px ;
+  
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li {
+    margin: 0px 40px;
+    font-size: 23px;
+  }
+
+  .navbar:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.2s;
+    font-size: 18px;
+  
+  }
+
+  h1 {
+    color: white;
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow:0 4px 0 #000000;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    color: white;
+    text-shadow:0 4px 0 #000000;
+  }
+
+  #titre-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 200px;
+    box-shadow: black 3px 3px 20px 2px;
+    border-radius: 20px;
+}
+
+.carousel-container {
+    display: flex;
+}
+
+.carousel-item {
+    display: none;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s ease-in-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.2s;
+    user-select: none;
+    border : none
+}
+
+.prev {
+    left: 0;
+    background: none;
+}
+
+.next {
+    right: 0;
+    background: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(252, 252, 252, 0.725);
+}
+
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+video {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: black 3px 3px 20px 2px;
+}
+
+#block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.flip-container {
+  perspective: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.flipper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  box-shadow: black 3px 3px 20px 2px;
+  border-radius: 20px;
+
+}
+
+.flipper:nth-child(1) {
+  margin: 0px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.front {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.back {
+  background-color: #2b2b2b;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#jeuxvideos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#titrejura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+#button-metier {
+  align-items: center;
+  display: flex;
+  padding: 10px 25px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-right: 195px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.2s;
+}
+
+
+#button-metier:hover {
+  cursor: pointer;
+  background-color: #32232C;
+  color: white;
+
+}
+
+button {
+  align-items: center;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+#button-contact {
+  padding-right: 10px;
+}
+
+
+#button-contact:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #32232C;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.2s;
+  cursor: pointer;
+}
+
+
+.organisation {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.git {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.git:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+
+.icone {
+    
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.icone:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+
+#btn-redirect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+
+footer {
+  background-color: rgba(255, 255, 255, 0.388);
+  padding: 10px 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+
+}
+@media (max-width: 480px ){
+  body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header, ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul {
+    margin-top : 250px;
+    margin-left: 150px;
+  }
+
+  li {
+    margin: 10px;
+  }
+
+  #image-logo {
+    margin-bottom: 4100px;
+    margin-left: 100px;
+  }
+  
+  h1 {
+    margin-left: 150px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  h2 {
+    margin-left: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .flip-container {
+    margin-left:100px;
+    width: 100%;
+  }
+
+video {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: black 3px 3px 20px 2px;
+  width: 100%;
+  margin-left: 150px;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+  #block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #btn-redirect {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #video {
+    margin-right: 70px;
+  }
+
+  #jeuxvideos {
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-left: 35px;
+  }
+
+  .flipper {
+    height: 300px;
+    width: 300px;
+  }
+
+  .front {
+    height: 300px;
+    width: 300px;
+  }
+
+  .back {
+    height: 300px;
+    width: 300px;
+  }
+
+  .fleche {
+    height: 20px;
+    width: 20px;
+  }
+
+  .photointeret {
+    height: 300px;
+    width: 300px;
+  }
+
+  #button__ {
+    margin: 10px;
+  }
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    border-radius: 10px;
+  }
+
+  #btn-redirect {
+    width: 100%;
+  }
+}
