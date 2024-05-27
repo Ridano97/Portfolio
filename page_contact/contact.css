@@ -10,7 +10,7 @@
    /*  background: linear-gradient(#ebcea1  0.1%, #B4C0D9 40%, 50%, #03bddc 55%); */
   /*  background: linear-gradient(#6A625F   5%, #FFFFFF 20%, 40%, #888282 70%);
    background-repeat: no-repeat; */
-  background-image: url(../assets/images/fond.jpeg);
+  background-image: url(../assets/images/fondpik.jpeg);
   background-origin: border-box;
   background-position: center;
   background-size: cover;
@@ -19,8 +19,8 @@
   }
 
   #image-logo {
-    margin-left: 40px;
     position: absolute;
+    margin-left: 50px;
 
   }
 
@@ -60,8 +60,13 @@
   
   }
 
+  #titre-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
-    margin-left: 680px;
     color: white;
     margin-top: 100px;
     font-size: 60px;
@@ -262,3 +267,162 @@
     justify-content: space-between;
     align-items: center;
   }
+
+
+  #button-metier {
+    align-items: center;
+    display: flex;
+    padding: 10px 25px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-right: 195px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.2s;
+  }
+  
+  
+  #button-metier:hover {
+    cursor: pointer;
+    background-color: #32232C;
+    color: white;
+  
+  }
+  
+  button {
+    align-items: center;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  
+  #button-contact {
+    padding-right: 10px;
+  }
+  
+  #button-contact:hover {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #32232C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.2s;
+    cursor: pointer;
+  }
+  
+
+  #btn-redirect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .organisation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.git {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.git:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+
+.icone {
+    
+  width: 60px;
+  height: 60px;
+}
+
+.icone:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+  
+
+  footer {
+    padding: 10px 0px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.388);
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+ 
+  @media (max-width: 480px){
+    header ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  ul {
+    margin-top: 300px ;
+    margin-left: 100px;
+  }
+
+  li {
+      margin: 10px 0;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  h1 {
+    margin-left: 100px;
+  }
+
+  #btn-redirect {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #button__{
+    margin: 10px;
+  }
+
+}
+
+
+

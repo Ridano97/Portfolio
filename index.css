@@ -8,12 +8,26 @@
 }
 
 body {
-  background-image: url(./assets/images/fond.jpeg);
+  background-image: url(./assets/images/fondpik.jpeg);
   background-origin: border-box;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#float_button{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 80px;
+  margin-bottom: 50px;
 }
 
 #fond {
@@ -23,6 +37,7 @@ body {
 
 #image-logo {
   margin-right: 1270px;
+  margin-left: 50px;
   position: absolute;
 }
 
@@ -105,7 +120,7 @@ p {
 }
 
 #block-metier {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,6 +200,7 @@ button:hover {
 .text-intro {
   color: black;
   padding : 20px 200px 0px 200px ;
+  font-size: 25px;
 
 }
 
@@ -196,6 +212,61 @@ button:hover {
   height: 80px;
   width: 80px
 }
+
+.competence:hover {
+  cursor: pointer;
+  height:120px;
+  width: 100px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-delay: 0.2s;
+  
+}
+
+.organisation {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.git {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.git:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+
+.icone {
+    
+  width: 60px;
+  height: 60px;
+}
+
+.icone:hover {
+  cursor: pointer;
+  width: 65px;
+  height: 65px ;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.2s;
+}
+
 
 #introduction {
   max-width: 1200px;
@@ -267,12 +338,33 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   padding-top: 50px;
+  color: #32232C;
 }
 
 #apropos {
   font-size: 40px;
   font-weight: bold;
   padding-top: 50px;
+  color:#32232C ;
+}
+
+#btn-redirect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.388);
+  padding: 10px 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+
 }
 
 /* @media screen and (min-width: 480px){
@@ -285,27 +377,23 @@ h2 {
     flex-direction: column;
   } */
 
-@media screen and (min-width:356px) and (max-width: 768px) {
+  @media (min-device-width : 320px) and (max-device-width : 480px) {
   body {
-    background-size: auto; /* Change la taille de l'image de fond */
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-  #fond {
-    flex-direction: column; /* Place les éléments en colonne sur les petits écrans */
-    align-items: center; /* Centre les éléments sur les petits écrans */
-  }
+  };
 
   #image-logo {
-    margin-right: 250px; /* Supprime la marge du logo sur les petits écrans */
-    margin-bottom: 150px; /* Ajoute un espace sous le logo sur les petits écrans */
-    position: static; /* Change la position du logo sur les petits écrans */
-    width: 100px;
-    height: 100px;
+    display: none;
   }
 
   ul {
     flex-direction: column; /* Place les éléments de la liste en colonne sur les petits écrans */
     text-align: center; /* Centre le texte sur les petits écrans */
+    margin-left: 400px;
   }
 
   li {
@@ -319,7 +407,7 @@ h2 {
   }
 
   #block-metier {
-    width: 80%; /* Réduit la largeur du bloc métier sur les petits écrans */
+    width: 100%; /* Réduit la largeur du bloc métier sur les petits écrans */
     margin-right: 0; /* Supprime la marge du bloc métier sur les petits écrans */
     text-align: center; /* Centre le texte du bloc métier sur les petits écrans */
     margin-bottom: 20px;
@@ -327,17 +415,17 @@ h2 {
   }
 
   h1 {
-    margin-left: 250px;
+    margin-left: 550px;
     margin-bottom: 50px;
   }
 
   #block-presentation {
-    width: 90%; /* Réduit la largeur du bloc de présentation sur les petits écrans */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 500px;
     margin-bottom: 100px;
+    width: 50%;
   }
 
   #paragraphe {
@@ -347,7 +435,7 @@ h2 {
   #button-metier {
     margin-right: 0; /* Supprime la marge du bouton métier sur les petits écrans */
     margin-bottom: 50px;
-    margin-left: 100px;
+    margin-left: 400px;
   }
 
   button {
@@ -355,30 +443,152 @@ h2 {
   }
   
   #button_ {
-    margin-left: 100px;
+    margin-left: 150px;
   }
 
-  .dark\:underline:where([data-mode="dark"], [data-mode="dark"] *){
-  text-decoration-line: underline
+  #button__ {
+    margin: 0px 20px;
   }
+
+  #introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  #apropos {
+    margin-left: 400px;
+  }
+
+  .text-intro {
+    margin-left: 400px
+  }
+
+#titrehardskill {
+  margin-left: 400px;
+}
+
+#block-competence {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  margin-left: 400px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 400px;
+}
+
+#btn-redirect {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#button__{
+  margin: 10px;
+}
 
 }
 
-@media screen and (min-width:481px) and (max-width:992px){
+
+
+
+@media only screen and (min-width:481px) and (max-width:1024px){
   
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+  }
+
   h1 {
-    margin-left: 320px;
+    margin-right: 400px;
+  }
+
+  #text-metier {
+    margin-right: 250px;
   }
 
   #button-metier {
-    margin-left: 170px;
+    margin-right: 450px;
+  }
+
+  #mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+    max-width: 1024px;
+    justify-content: center;
+    min-width: 481px;
+  }
+
+  #block-metier {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-bottom: 100px;
   }
 
   #block-presentation {
-    margin-left: 40px ;
+    width: 100%;
+    margin-left: 450px;
+  }
+
+  #button_ {
+    margin-left: 50px;
+  }
+
+  #introduction {
+    width: 100%;
+    margin-left: 215px;
+    display: flex;
+  }
+
+  #hardskill {
+    width: 100%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #block-competence {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
   }
 
   #button_ {
     margin-left: 150px;
   }
+
+  #titrehardskill {
+    margin-right: 50px;
+
+  }
+
+  #btn-redirect {
+    margin-left: 350px;
+  }
+
 }
