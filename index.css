@@ -132,7 +132,7 @@ p {
 
 #block-presentation {
   width: 70%;
-  background:linear-gradient(rgb(55, 55, 55) 0.1%,  grey 5% , 20% , white 85%);
+  background:white;
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -272,7 +272,7 @@ button:hover {
 #introduction {
   max-width: 1200px;
   margin: auto;
-  background:linear-gradient(rgb(55, 55, 55) 0.1%,  grey 5% , 20% , white 85%);
+  background: white;
   box-shadow: black 3px 3px 20px 2px;
   border-radius: 5px;
   display: flex;
@@ -310,7 +310,7 @@ h2 {
 }
 
 #hardskill {
-  background:linear-gradient(rgb(55, 55, 55) 0.1%,  grey 5% , 20% , white 85%);
+  background: white;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
