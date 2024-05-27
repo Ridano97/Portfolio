@@ -8,7 +8,7 @@
 
 body {
       /* background: linear-gradient(#ebcea1  0.1%, #B4C0D9 40%, 50%, #03bddc 55%); */
-    background-image: url(../assets/images/fondpik.jpeg);
+    background-image: url(../assets/images/interet.heic);
     background-origin: border-box;
     background-position: center;
     background-size: cover;
@@ -50,7 +50,7 @@ body {
 
 #button-metier:hover {
   cursor: pointer;
-  background-color: #32232C;
+  background-color: black;
   color: white;
 
 }
@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-  background-color: #32232C;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
@@ -338,7 +338,7 @@ img {
 
 #button-metier:hover {
   cursor: pointer;
-  background-color: #32232C;
+  background-color: black;
   color: white;
 
 }
@@ -363,7 +363,7 @@ button {
 }
 
 button:hover {
-  background-color: #32232C;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: center;

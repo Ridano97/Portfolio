@@ -7,7 +7,7 @@
   }
 
 body {
-    background-image: url(../assets/images/fondpik.jpeg);
+    background-image: url(../assets/images/projet.heic);
     background-origin: border-box;
     background-position: center;
     background-size: cover;
@@ -182,7 +182,7 @@ button {
   
   #button-metier:hover {
     cursor: pointer;
-    background-color: #32232C;
+    background-color: black;
     color: white;
   
   }
@@ -205,7 +205,7 @@ button {
   }
   
   button:hover {
-    background-color: #32232C;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
